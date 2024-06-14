@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+p {
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(110, 108, 108);
+}
+ul,
+ol {
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+hr {
+  margin-top: 30px;
+}
+.title-main,
+.subtitle {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+.section {
+  margin-bottom: 20px;
+}
+.subtitle {
+  color: hsl(14, 45%, 36%);
+}
+
+.main-screen {
+  background-color: white;
+  border-radius: 20px;
+  width: 60%;
+  margin: 80px auto;
+  padding: min(25px, 5%);
+}
+
+.title-image {
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.description {
+  background-color: rgba(205, 23, 108, 0.1);
+  border-radius: 10px;
+  padding: 20px 25px;
+}
+.title-2 {
+  color: hsl(332, 51%, 32%);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+.section-2 ul li {
+  color: hsl(332, 51%, 32%);
+}
+
+.section-3 ul li {
+  color: hsl(14, 45%, 36%);
+}
+
+.section-4 ol li {
+  color: hsl(14, 45%, 36%);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.section-5 table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+.section-5 th {
+  border-bottom: 1px solid rgb(192, 187, 187);
+  text-align: left;
+  width: 50%;
+  padding: 5px 20px;
+}
+.section-5 td {
+  border-bottom: 1px solid rgb(192, 187, 187);
+  width: 50%;
+  color: hsl(14, 45%, 36%);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 375px) {
+  .main-screen {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .title-image {
+    border-radius: 0;
+  }
+
+  .section {
+    margin: 20px 20px;
+  }
+  .section-1 {
+    margin: 0;
+  }
+  .section-1 h1,
+  p {
+    margin: 20px;
+  }
+
+  .section-5 {
+    margin-bottom: 0;
+  }
+  .section-5 table p {
+    margin: 10px;
+  }
+}
+
+.section-5 .no-border {
+  border: none;
+}
